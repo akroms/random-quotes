@@ -1,0 +1,23 @@
+/* Reset */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+
+.container {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+
+    .quote {
+        border:2px solid slateblue;
+        padding: 1em;
+        margin:0 auto;
+        max-width: 400px;
+    }
+}
